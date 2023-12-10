@@ -5,6 +5,14 @@
 */
 
 function isAnagram(str1, str2) {
+str11=str1.toLowerCase()
+str22=str2.toLowerCase()
+  if ( str11.split("").sort().join("") != str22.split("").sort().join("")){
+   return false;
+  }   
+  else {
+      return true;
+  }
 
 }
 
